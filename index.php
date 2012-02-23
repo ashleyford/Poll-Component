@@ -14,6 +14,7 @@ $("document").ready(function () {
     
 	function getPoll(){
 	
+	// done by bearphace.
 	
 	$.getJSON('http://papermashup.com/sproutComponents/poll/get_poll.php?pollid=<?php echo $_GET['pollid'];?>&type=getpoll&callback=?', function (data) {
 		
