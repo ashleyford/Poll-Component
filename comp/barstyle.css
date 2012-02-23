@@ -1,0 +1,45 @@
+    * { 
+      margin: 0; 
+      padding: 0; 
+      list-style-type: none;
+    }
+
+    #content li { 
+      position: relative;
+      display: block;  
+      border-bottom: 1px solid #EEE; 
+      _zoom: 1;
+    }
+    #content li a { 
+      display: block; 
+	  white-space:nowrap;
+      padding: 0.4em 4.5em 0.4em 0.5em;
+      position: relative; 
+      z-index: 2; 
+    }
+    #content .count { 
+      display: block; 
+      position: absolute; 
+      top: 0; 
+      right: 0; 
+      margin: 0 0.3em; 
+      text-align: right; 
+      color: #999; 
+      font-weight: bold; 
+      font-size: 0.875em; 
+      line-height: 2em; 
+	  z-index:100;
+    }
+    #content .index { 
+      display: block; 
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      height: 100%; 
+      background: #B8E4F5; 
+      text-indent: -9999px; 
+      overflow: hidden; 
+      line-height: 2em;
+    }
+  
+	

@@ -1,0 +1,22 @@
+	.product{
+	width:300px;
+	float:left;
+	margin:5px;
+	border:1px #dedede solid;
+	padding:5px;
+	background-image:url(http://papermashup.com/demos/jquery-json-php/images/corner.jpg);
+	background-position:bottom right;
+	background-repeat:no-repeat;
+	}
+	
+	.product_holder{overflow:scroll;}
+	
+	.product .title{
+	margin-bottom:6px;}
+	
+	.product img{
+	float:left;
+	margin-right:10px;
+	border:1px solid #dedede;}
+	
+	.product .description{font-size:10px; font-family:Geneva, Arial, Helvetica, sans-serif}
