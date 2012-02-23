@@ -19,6 +19,8 @@ $("document").ready(function () {
 	// this is a comment by ashley
 	// Bearphace new branch changes
 	
+	// yes this is it
+	
 	$.getJSON('http://papermashup.com/sproutComponents/poll/get_poll.php?pollid=<?php echo $_GET['pollid'];?>&type=getpoll&callback=?', function (data) {
 		
 			console.log(data);
