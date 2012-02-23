@@ -21,7 +21,7 @@ $("document").ready(function () {
 	
 	// yes this is it
 	
-	$.getJSON('http://papermashup.com/sproutComponents/poll/get_poll.php?pollid=<?php echo $_GET['pollid'];?>&type=getpoll&callback=?', function (data) {
+	$.getJSON('get_poll.php?pollid=<?php echo $_GET['pollid'];?>&type=getpoll&callback=?', function (data) {
 		
 			console.log(data);
 			
@@ -64,7 +64,7 @@ $("document").ready(function () {
 		console.log($(this).attr('id'));
 		console.log(pollid);
 		
-		 $.getJSON('http://papermashup.com/sproutComponents/poll/get_poll.php?pollid='+pollid+'&updateid='+$(this).attr('id')+'&type=updatepoll&callback=?', function (data) {
+		 $.getJSON('get_poll.php?pollid='+pollid+'&updateid='+$(this).attr('id')+'&type=updatepoll&callback=?', function (data) {
 		
 			if(data.status=='1'){
 				
