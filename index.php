@@ -16,6 +16,8 @@ $("document").ready(function () {
 	
 	// done by bearphace.
 	
+	// this is a comment by ashley
+	
 	$.getJSON('http://papermashup.com/sproutComponents/poll/get_poll.php?pollid=<?php echo $_GET['pollid'];?>&type=getpoll&callback=?', function (data) {
 		
 			console.log(data);
