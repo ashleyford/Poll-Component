@@ -14,12 +14,7 @@ $("document").ready(function () {
     
 	function getPoll(){
 	
-	// done by bearphace.
-	
-	// this is a comment by ashley
-	// Bearphace new branch changes
-	
-	// yes this is it
+	// this is my update
 	
 	$.getJSON('http://papermashup.com/sproutComponents/poll/get_poll.php?pollid=<?php echo $_GET['pollid'];?>&type=getpoll&callback=?', function (data) {
 		
